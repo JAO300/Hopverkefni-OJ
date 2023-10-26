@@ -52,9 +52,9 @@ img {
   max-width: 100%;
 }
 
-header{
-    background-image: url(myndir/background.png);
-    width: 100%;
+header {
+  background-image: url(myndir/background.png);
+  width: 100%;
 }
 
 .header {
@@ -69,8 +69,8 @@ header{
   list-style: none;
 }
 
-.header ul li{
-    padding: 1rem;
+.header ul li {
+  padding: 1rem;
 }
 
 .main {
@@ -78,10 +78,11 @@ header{
   grid-template-rows: auto;
   grid-template-columns: 100%;
   gap: var(--vertical-space);
-  width: var(--width-offset);
-  max-width: var(--max-width);
 }
 
+.boxes .box {
+
+}
 
 .cards {
   display: grid;
@@ -95,6 +96,11 @@ header{
 .cards .card {
   grid-column: span 3;
   background-color: white;
+  padding-bottom: 2rem;
+}
+
+.cards h2 {
+  grid-column: span 12;
 }
 
 .footer {
