@@ -54,19 +54,19 @@ img {
 
 .header{
   display: flex;
-  width: 100%;
-  align-content: space-around;
-  
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
 
 .header ul{
   list-style: none;
-  display: flex;
-  width: 100%;
 }
 
-.header ul li{
-  padding: 1rem;
+
+
+.header .forsida{
+  text-align: center;
 }
 
 .main {
@@ -109,8 +109,16 @@ img {
 
 .cards .card {
   grid-column: span 3;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   background-color: white;
-  padding-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 2%;
+}
+
+.cards .card img{
+  order: -1;
 }
 
 .cards h2 {
@@ -185,89 +193,5 @@ img {
 .footer ul {
   list-style: none;
   text-decoration: none;
-}
-
-.vara {
-  display: flex;
-  align-items: flex-start;
-  padding: 20px;
-}
-
-.vara .varamynd {
-  width: 690px;
-  height: 463px;
-  margin-right: 40px;
-}
-.vara .varaatriði {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-.vara .varaatriði .varatitill {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-size: 60px;
-  color: black;
-  margin-bottom: 10px;
-}
-
-
-.vara .varaatriði .taggs {
-  display: flex;
-  gap: 10px;
-}
-.vara .varaatriði .taggs .tagg {
-  padding: 5px;
-  background-color: #E1CEC2;
-  border-radius: 5px; 
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  color: black;
-}
-.vara .varaatriði .varatexti {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  color: black;
-  line-height: 32px;
-  margin-top: 20px;
-}
-.vara .varaatriði .verd {
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  color: black;
-  margin-top: 20px;
-}
-
-.vara .varaatriði .varatakki{
-  margin-top: 20px;
-  padding: 10px 15px;
-  background-color: #FEFEFE;
-  border: 1px solid #6F4E37;
-  border-radius: 5px;
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  color: #3C2A1E;
-  text-decoration: none;
-  text-align: center;
-  
-}
-
-.takki{
-  margin-top: 20px;
-  padding: 10px 15px;
-  
-  border: 1px solid #6F4E37;
-  border-radius: 5px;
-  
-  
-  font-size: 14px;
-  color: #3C2A1E;
-  
-  text-align: center;
-  
 }
 
