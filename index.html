@@ -3,32 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Tæknibúðin</title>
   </head>
 
   <body>
     <header>
-      <h1>Tæknibúðin</h1>
-      <nav>
-        <ul>
-          <li>
-            <form id="form">
-              <input
-                type="search"
-                id="query"
-                name="q"
-                placeholder="Search..."
-              />
-            </form>
-          </li>
-          <li>Nýjar vörur</li>
-          <li>Tilboðs vörur</li>
-          <li>Allar vörur</li>
-          <li>icon</li>
-        </ul>
-      </nav>
-      <h2>Tilboðsvika</h2>
-      <p>Keyptu græjunar hjá okkur!</p>
+      <div class="header">
+        <img src="" alt="" class="icon">
+        <h1>Tæknibúðin</h1>
+        <nav>
+          <ul>
+            <li>
+              <form id="form" class="input">
+                <input
+                  type="search"
+                  id="query"
+                  name="q"
+                  placeholder="Search..."
+                />
+              </form>
+            </li>
+            <li>Nýjar vörur</li>
+            <li>Tilboðs vörur</li>
+            <li>Allar vörur</li>
+            <li><img src="" alt="vörukerra" class="icon"></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="forsida">
+        <h2>Tilboðsvika</h2>
+        <p>Keyptu græjunar hjá okkur!</p>
+      </div>
     </header>
     <div class="main">
       <div class="boxes">
@@ -178,10 +184,12 @@
         </section>
         <section>
           <h2>Annað</h2>
-          <a href="index.html">Rekja sendingu</a>
-          <a href="index.html">Skilaréttur</a>
-          <a href="um.html">Um okkur</a>
-          <a href="index.html">Störf</a>
+          <ul>
+            <li><a href="index.html">Rekja sendingu</a></li>
+            <li><a href="index.html">Skilaréttur</a></li>
+            <li><a href="um.html">Um okkur</a></li>
+            <li><a href="index.html">Störf</a></li>
+          </ul>
         </section>
         <section class="copy-right">
           <p>© 2021 TÆKNIBÚÐIN — Allur réttur áskilinn</p>
