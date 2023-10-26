@@ -54,18 +54,19 @@ img {
 
 .header{
   display: flex;
-  width: 100%;
-  align-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
 
 .header ul{
   list-style: none;
-  display: flex;
-  width: 100%;
 }
 
-.header ul li{
-  padding: 1rem;
+
+
+.header .forsida{
+  text-align: center;
 }
 
 .main {
@@ -108,8 +109,16 @@ img {
 
 .cards .card {
   grid-column: span 3;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   background-color: white;
-  padding-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 2%;
+}
+
+.cards .card img{
+  order: -1;
 }
 
 .cards h2 {
@@ -185,4 +194,3 @@ img {
   list-style: none;
   text-decoration: none;
 }
-
