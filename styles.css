@@ -82,15 +82,18 @@ header{
   max-width: var(--max-width);
 }
 
-.boxes
 
 .cards {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
   gap: var(--spacing);
   background-color: #e1cec2;
   padding: var(--spacing);
 }
 
 .cards .card {
+  grid-column: span 3;
   background-color: white;
 }
 
