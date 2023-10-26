@@ -52,21 +52,20 @@ img {
   max-width: 100%;
 }
 
-.header .icon{
-  display: flex;
-  width: 30%;
-}
-
-.header .icon img{
-  size: initial;
-}
-
 .header{
   display: flex;
+  width: 100%;
+  align-content: space-around;
+}
+
+.header ul{
+  list-style: none;
+  display: flex;
+  width: 100%;
 }
 
 .header ul li{
-  list-style: none;
+  padding: 1rem;
 }
 
 .main {
