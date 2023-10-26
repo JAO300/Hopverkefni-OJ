@@ -299,3 +299,45 @@ img {
 
   text-align: center;
 }
+
+.boxess .boxs .input{
+  min-width: 100%;
+}
+
+
+.boxess{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+  gap: var(--spacing);
+  
+  padding: var(--spacing);
+}
+
+.boxess .boxs {
+  grid-column: span 6;
+  align-content: center;
+
+
+}
+
+
+.boxess .boxs .form{
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  margin-top: 20px;
+  padding: 10px 15px;
+}
+
+.boxesmynd{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+  gap: var(--spacing);
+  padding: var(--spacing);
+}
+
+.boxesmynd .boxmynd{
+  grid-column: span 6;
+}
