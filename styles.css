@@ -108,16 +108,8 @@ img {
 
 .cards .card {
   grid-column: span 3;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
   background-color: white;
-  padding: 1rem;
-  border-radius: 2%;
-}
-
-.cards .card img{
-  order: -1;
+  padding-bottom: 2rem;
 }
 
 .cards h2 {
@@ -193,3 +185,4 @@ img {
   list-style: none;
   text-decoration: none;
 }
+
